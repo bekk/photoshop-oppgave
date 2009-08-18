@@ -19,7 +19,7 @@ body
 
 .menu-bar
 {
-    height: 30px;
+    height: 40px;
     min-width: 10px;
     
     
@@ -41,6 +41,11 @@ body
     text-align: center;
 
     background: no-repeat url("images/menu-back.png")
+}
+
+.active a
+{
+    background: no-repeat url("images/menu-active.png")
 }
 
 .menu-item a:hover
